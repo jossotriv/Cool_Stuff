@@ -1,0 +1,60 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Nov  3 21:31:42 2016
+
+@author: Jose
+"""
+import socket               # Import socket module
+
+s = socket.socket()         # Create a socket object
+host = socket.gethostname() # Get local machine name
+port = 12345                # Reserve a port for your service.
+
+s.connect((host, port))
+print s.recv(1024)
+s.close   
+class VitalMonitor(object):
+    def __init__(self,Heartbeat, Temp,subject): # gets the variable info and stores them in their suitable variable
+        self.Heartbeat = Heartbeat
+        self.Temp = Temp
+        self.subject = subject
+    def set_vitals(self):
+        return 
+    def get_vitals(self):
+        return self.Heartbeat
+        return self.Temp
+    def logging(self, s):
+        outfile = open("logs.txt")
+        outfile.write(s,"\n")
+        outfile.close()
+    def check_Heartbeat(self):
+        if 145 < self.Heartbeat: #acceptable heartrate for an active adult is from 114-145
+            self.logging(self.str() + "WARNING: Heart Beat")
+        elif self.HeartsBeat <= 145 and self.Heartbeat >= 120:
+            self.logging(self.str() + "Caution: Heart Beat"
+        else:
+            self.logging(self.str())
+        
+            #print ("subject " +self.subject+ " has a heartrate of: "+ self.Heartbeat+" bpm." )
+    def check_Temp(self):
+        if 102 > self.Temp and self.Temp >= 99: #acceptable body temperature is from 97-99 degrees fahrenheit in the regular adult.
+            self.logging(self.str() + CAUTION: Body Temperature")
+        #print("subject " +self.subject+ " has a body temperature of: "+ self.Temp+" Fahrenheit.")
+    elif self.Temp >= 102:
+        self.logging(self.str() + "WARNING: Body Temperature")
+    else: 
+        self.logging(self.str())
+    def __set__(self, obj, val):
+        print ('Updating', self.vitals)
+        self.val = val
+    def __str__(self):
+        return self.str()
+if __name__ == "__main__":
+    while True:
+        self.get_vitals()
+        self.check_Heartbeat()
+        self.check_Temp()
+    
+        
+    
+    

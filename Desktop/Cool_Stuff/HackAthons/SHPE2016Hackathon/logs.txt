@@ -1,0 +1,1 @@
+[2016-11-04 13:14:44]Subject 0 has HeartBeat: 83 and Body Temperature: 94.5
