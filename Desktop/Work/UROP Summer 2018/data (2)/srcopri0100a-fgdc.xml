@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin/>
+        <pubdate>20130401</pubdate>
+        <title>100-Meter Resolution Color Shaded Relief of Puerto Rico and the U.S. Virgin Islands</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace/>
+          <publish>National Atlas of the United States</publish>
+        </pubinfo>
+        <othercit>These data were downloaded from the National Atlas website (http://www.nationalatlas.gov/atlasftp.html) in August 2014.</othercit>
+        <onlink>http://purl.stanford.edu/zt151dn8706</onlink>
+        <lworkcit>
+          <citeinfo>
+            <pubdate>19980101</pubdate>
+            <title>National Atlas of the United States of America, 1997-2014</title>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Color Shaded Relief of Puerto Rico and the U.S. Virgin Islands map layer is a 100-meter resolution color-sliced elevation image of Puerto Rico and the U.S. Virgin Islands, with relief shading added to accentuate terrain features, in an Albers Equal-Area Conic projection. The image was produced by combining the 100-meter resolution color-sliced elevation and the grayscale shaded relief data sets that are distributed by the National Atlas of the United States. The color shaded relief data were derived from the National Atlas 100-meter resolution elevation data. The elevation data were derived from National Elevation Dataset (NED) data and show the terrain of the conterminous United States at a resolution of 100 meters. The NED is a raster product assembled by the U.S. Geological Survey, designed to provide national elevation data in a seamless form with a consistent datum, elevation unit, and projection. Data corrections made in the NED assembly process minimize artifacts, permit edge matching, and fill sliver areas of missing data. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
+      <purpose>The 100-meter resolution color shaded relief data were developed to portray the terrain of the United States at 1:1,000,000 scale. They are intended primarily for visual purposes. The original NED data should be used for conducting analysis and determining the most accurate elevation values. No responsibility is assumed by the National Atlas of the United States in the use of these data.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20130401</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-68.357915</westbc>
+        <eastbc>-63.789014</eastbc>
+        <northbc>18.952952</northbc>
+        <southbc>17.059964</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>lcsh</themekt>
+        <themekey>Topographic maps</themekey>
+        <themekey>Altitudes</themekey>
+        <themekey>Digital elevation models</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>elevation</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>geonames</placekt>
+        <placekey>United States</placekey>
+        <placekey>Puerto Rico</placekey>
+        <placekey>United States Virgin Islands</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2013</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>This item is in the public domain.</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Atlas of the United States</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <city>Reston</city>
+          <state>Virginia</state>
+          <country>US</country>
+        </cntaddr>
+        <cntemail>atlasmail@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>National Atlas of the United States. (2013). 100-Meter Resolution Color Shaded Relief of Puerto Rico and the U.S. Virgin Islands. National Atlas of the United States. Available at: http://purl.stanford.edu/zt151dn8706.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>2080</rowcount>
+      <colcount>4820</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TIFF image grid cell</enttypl>
+        <enttypd>Any of the data elements in the color shaded relief file.</enttypd>
+        <enttypds>National Atlas of the United States</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Color shaded relief TIFF image values</attrlabl>
+        <attrdef>Color intensity values used to portray shaded relief.  Each band (red, green, or blue) can vary from a value of 0 (very dark color) to 255 (very light color); the combination of the three bands produces the shaded relief color image.
+</attrdef>
+        <attrdefs>National Atlas of the United States</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>255</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>Mitchell Building, 2nd Floor</address>
+          <address>397 Panama Mall</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20170110</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Mitchell Bldg. 2nd floor</address>
+          <address>397 Panama Mall</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
